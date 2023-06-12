@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  margin: 1rem;
+}
+html,
+body,
+.container,
+.header {
+  margin-top: 0rem;
+}
+.container {
+  max-width: 120rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header {
+  background-image: url(images/header.jpg);
+  background-repeat: no-repeat;
+  background-size: 175% auto;
+  background-position-x: center;
+  background-position-y: center;
+  display: flex;
+  flex-flow: column wrap;
+}
+.options {
+  margin: 4rem 0rem 12rem 0rem;
+  display: flex;
+  flex-flow: row wrap;
+}
+.logo {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+#logo {
+  height: 6rem;
+  margin: 0rem;
+}
+.nav {
+  flex: 5 1 auto;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+}
+.menu {
+  list-style: none;
+  margin: 0rem;
+  padding: 0rem;
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.nav li {
+  flex: 20%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.nav p {
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(146, 145, 145);
+}
+.listItem {
+  margin: 0.1rem;
+}
+.socialMedia {
+  flex: 1 1 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon {
+  height: 1.5rem;
+  opacity: 0.6;
+}
+.listItem:hover,
+.icon:hover {
+  opacity: 100%;
+  color: black;
+  font-weight: bold;
+}
+.mainTitle {
+  width: 90%;
+  margin: 0rem;
+  margin-top: 3rem;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgba(138, 138, 138, 0.3);
+}
+.mainTitle h1 {
+  margin: 0rem;
+  padding: 3rem 22rem 7rem 22rem;
+  color: rgb(234, 158, 77, 0.6);
+  font-size: 3rem;
+  font-weight: lighter;
+  font-family: "Times New Roman", Times, serif;
+  text-align: center;
+}
+.section {
+  background-color: #4e4e4e;
+  display: flex;
+}
+.articles {
+  background-color: #967e76;
+  display: flex;
+  flex-flow: row wrap;
+  flex: 2 1 auto;
+}
+.article {
+  padding: 1rem;
+  background-color: #d7c0ae;
+  flex: 1 1 40%;
+}
+.foot {
+  padding: 1rem;
+  background-color: #eee3cb;
+  flex: 1 1 100%;
+}
+.aside {
+  background-color: #eee3cb;
+  flex: 1 1 auto;
+}
+.something {
+  padding: 1rem;
+  background-color: #d7c0ae;
+}
+.footer {
+  background-color: #4e4e4e;
+}
+.info {
+  padding: 1rem;
+  background-color: #9babb8;
+}
+
+/*Ejercicio 2*/
+@media (max-width: 1024px) {
+  .section {
+    background-color: yellow;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/*Ejercicio 3*/
+@media (max-width: 767px) {
+  .options {
+    display: flex;
+    flex-direction: column;
+  }
+  .articles {
+    flex-direction: column;
+  }
+}
