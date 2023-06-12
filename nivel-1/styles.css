@@ -1,0 +1,71 @@
+/*Ejercicio 1*/
+* {
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+  }
+  .container {
+    max-width: 1200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .header {
+    background-color: #4e4e4e;
+  }
+  .options {
+    background-color: #967e76;
+    display: flex;
+    flex-flow: row nowrap;
+  }
+  .logo {
+    background-color: #eee3cb;
+    flex: 1 1 auto;
+  }
+  .nav {
+    background-color: #eee3cb;
+    flex: 5 1 auto;
+  }
+  .socialMedia {
+    background-color: #eee3cb;
+    flex: 1 1 auto;
+  }
+  
+  .mainTitle {
+    background-color: #9babb8;
+  }
+  h1 {
+    background-color: #eee3cb;
+  }
+  
+  .section {
+    background-color: #4e4e4e;
+    display: flex;
+  }
+  .articles {
+    background-color: #967e76;
+    display: flex;
+    flex-flow: row wrap;
+    flex: 2 1 auto;
+  }
+  .article {
+    background-color: #d7c0ae;
+    flex: 1 1 40%;
+  }
+  .foot {
+    background-color: #eee3cb;
+    flex: 1 1 100%;
+  }
+  .aside {
+    background-color: #eee3cb;
+    flex: 1 1 auto;
+  }
+  .something {
+    background-color: #d7c0ae;
+  }
+  .footer {
+    background-color: #4e4e4e;
+  }
+  .info {
+    background-color: #9babb8;
+  }
